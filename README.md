@@ -2,6 +2,9 @@
 
 > HUB API ACCOUNT
 
+## Badges
+[![Maintainability](https://api.codeclimate.com/v1/badges/964f93eb1ec8a2ca53b8/maintainability)](https://codeclimate.com/github/DataPartnerBr/hub-api/maintainability)
+
 Simply setup a new rails 5 Rest Api project
 
 ## Requiriments
