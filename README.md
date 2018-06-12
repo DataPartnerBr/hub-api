@@ -12,9 +12,9 @@ Example of a basic REST API to perform Bank Account. Uses MySQL by default. Plea
 config/database.yml
 
 set your credentials...
-  username: #######
-  password: #######
-  host: ##########
+  -username: #######
+  -password: #######
+  -host: ##########
   
 ## CLONE PROJET
 git clone https://github.com/DataPartnerBr/hub-api.git
