@@ -2,43 +2,62 @@
 
 > HUB API ACCOUNT
 
-## A Vue Webpack template forked from vuejs-templates/webpack
+Simply setup a new rails 5 Rest Api project
+Ruby 2.3.3
+Rails 5.2
 
-This template is intended for use with the Rails framework.  It is inteded to separate client and server and with Rails projects initialized using the --api flag.
+# SIMPLE RAILS 5 REST API
 
-Simply setup a new rails project
+Example of a basic REST API to perform Bank Account. Uses MySQL by default. Please add your own database and credentials. in 
+config/database.yml
 
+set your credentials...
+  username: #######
+  password: #######
+  host: ##########
+  
+## CLONE PROJET
+git clone https://github.com/DataPartnerBr/hub-api.git
+
+cd hub-api
+
+## INSTALL DEPENDENCIES
 ```bash
-rails new vue-rails --api
+bundle install
 ```
-Make sure you have vue-cli installed and run the following using the same project name
-
+## CREATE DATABASE
 ```bash
-vue init rlafranchi/webpack vue-rails
+rails db:create
 ```
 
-## Build Setup
-
-``` bash
-cd vue-rails
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+## RUN MIGRATION
+```bash
+rails db:migrate
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## RUN SERVER
+```bash
+rails s
+```
+
+# OPEN BROWSER
+http://localhost:3000/
+
+
+and ROOOORRR!!
+
+# NEXT STEPS
+Consume API whit POSTMAN or make your own front-end...
+
+
+## Contributing
+- Fork it
+- Create your feature branch (`git checkout -b my-new-feature`)
+- Commit your changes (`git commit -am 'Add some feature'`)
+- Push to the branch (`git push origin my-new-feature`)
+- Create new Pull Request
+
+### Maintaners
+
+* [Angelo Lopez](https://github.com/DataPartnerBr)
 "# hub-api" 
