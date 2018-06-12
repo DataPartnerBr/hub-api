@@ -15,7 +15,7 @@ Simply setup a new rails 5 Rest Api project
 Example of a basic REST API to perform Bank Account. Uses MySQL by default. Please add your own database and credentials. in 
 config/database.yml
 
-set your credentials...
+#set your credentials...
   *username: #######
   *password: #######
   *host: ##########
@@ -44,14 +44,16 @@ rails db:migrate
 rails s
 ```
 
-# OPEN BROWSER
+## OPEN BROWSER
 http://localhost:3000/
 
 
 and ROOOORRR!!
 
-# NEXT STEPS
-Consume API whit POSTMAN or make your own front-end...
+## NEXT STEPS
+Consume API with POSTMAN or make your own front-end... ...or
+
+* [front-end VUE.JS](https://github.com/DataPartnerBr/hub-front.git)
 
 
 ## Contributing
