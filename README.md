@@ -15,10 +15,10 @@ Simply setup a new rails 5 Rest Api project
 Example of a basic REST API to perform Bank Account. Uses MySQL by default. Please add your own database and credentials. in 
 config/database.yml
 
-#set your credentials...
-  *username: #######
-  *password: #######
-  *host: ##########
+##set your credentials...
+  *username: @@@@@@@@
+  *password: @@@@@@@@
+  *host: @@@@@@@@@@@
   
 ## CLONE PROJET
 git clone https://github.com/DataPartnerBr/hub-api.git
@@ -66,4 +66,4 @@ Consume API with POSTMAN or make your own front-end... ...or
 ### Maintaners
 
 * [Angelo Lopez](https://github.com/DataPartnerBr)
-"# hub-api" 
+"# http://datapartner.com.br" 
