@@ -3,8 +3,12 @@
 > HUB API ACCOUNT
 
 Simply setup a new rails 5 Rest Api project
-Ruby 2.3.3
-Rails 5.2
+
+## Requiriments
+    * Ruby Version: 2.3.3
+    * Rails 5.2.5
+    * mysql 5.1
+
 
 # SIMPLE RAILS 5 REST API
 
@@ -12,9 +16,9 @@ Example of a basic REST API to perform Bank Account. Uses MySQL by default. Plea
 config/database.yml
 
 set your credentials...
-  -username: #######
-  -password: #######
-  -host: ##########
+  *username: #######
+  *password: #######
+  *host: ##########
   
 ## CLONE PROJET
 git clone https://github.com/DataPartnerBr/hub-api.git
